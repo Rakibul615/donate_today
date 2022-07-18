@@ -1,0 +1,182 @@
+body{ 
+
+    font-family:'Times New Roman', Times, serif;
+}
+#topBannar{  
+  padding-top:3.5rem ; 
+    background-image: url(images/donation5.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 500px;
+    width: 100%;   
+    text-align: center;    
+}
+.topText{
+    background-color:rgba(255, 255, 255, 0.309);
+}
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+    color: black;      
+}
+ p{
+     text-align: center;
+    font-size: 2rem;   
+    color:black;    
+}
+.buttonColor{
+    margin-top: 15px;
+    text-align: center;
+}
+.buttonColor button{
+        background-color: #fa6400;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 600;
+        min-height: 3rem;
+        width: 200px;
+    
+}
+.donateTodayHeader{
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+   
+}
+.box{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 98px;
+    font-weight:600;
+    width: 10%;
+    height:110px;
+    margin: 10px;    
+    border: 2px solid rgba(245, 222, 179, 0.332);
+    
+}
+#secondBox{
+    color: #fa6400;
+    border: 2px solid #fa6400 ;
+    background-color: bisque;
+}
+#dataInput{
+    margin-top: 50px;
+    text-align: center;
+}
+#dataInput input{
+    text-align: center;
+    font-size: 1.5rem;
+    border: none;
+    height: 50px;
+    width: 58%;
+    border-bottom: 2px solid silver;
+
+}
+.donatePlanBox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;    
+    font-weight:600;
+    width: 400px;
+    height:auto;
+    margin: 10px;    
+    background-color: aquamarine;
+    justify-items: center
+
+}
+.boxImage img{
+    margin: 20px 0 5px 10px;
+}
+.boxTitle h1{
+    font-size: 2rem;
+    margin-left: 5px;
+    text-align: left;
+
+}
+.boxText p{
+    text-align: left;
+    margin: 0 0 2px 5px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+#backgroundColor1{
+    background-color: #CCF5F9;
+}
+#backgroundColor2{
+    background-color: #E7E9EB;
+}
+#backgroundColor3{
+    background-color: #FFFFCC;
+}
+.aboutText{
+    font-size:x-large;
+    text-align: left;
+    padding: 10px;
+    margin: 0 10px 5px 5px;   
+   
+}
+.subcribeContainer{
+    margin-top: 70px;
+    justify-content: center;
+    display: flex;
+    background-color: beige;
+    height: 170px;
+    width: 55%;
+    margin-left: 290px;
+    justify-content: center;
+    
+}
+#subcribeInput input{ 
+    padding-left: 16px;   
+    height: 36px;
+    width: 250px;
+    border: none;
+    background-color: darkgrey;
+    
+    
+    
+}
+#subcribeButton button{
+    height:37px;
+    width:150px ;
+    background-color:#fa6400 ;
+    border: none;
+    color: #fff;
+
+}
+.subcribeSubContainer{
+    display: flex;
+    margin-top:80px ;
+}
+#footerPart{
+    margin-top: 100px;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    
+}
+#footerText{
+    position:relative ;
+    text-align: center;
+    margin-top: 40px;
+
+}
+#footerText h1{
+   
+    color: red;
+    font-family:serif;
+    font-size:xx-large;
+    
+}
+#footerText p{
+    color: white;
+    font-size: medium;
+}
